@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Snacks</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cart.js" defer></script> <!-- JavaScript for cart functionality -->
+</head>
+<body>
+
+    <header>
+        <h1>Delicious Homemade Snacks</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pickles.html">Pickles</a>
+            <a href="sweets.html">Sweets</a>
+            <a href="snacks.html">Snacks</a>
+            <a href="cart.html">🛒 Cart</a>
+        </nav>
+    </header>
+
+    <section class="items">
+        <div class="item">
+            <img src="https://5.imimg.com/data5/WJ/JR/MY-30869366/crispy-murukku-500x500.jpg" alt="Crispy Murukku">
+            <h2>Crispy Murukku</h2>
+            <p>Authentic South Indian crispy delight made with rice flour and spices.</p>
+            <p><strong>Price: ₹120 per 500g</strong></p>
+            <button onclick="addToCart('Crispy Murukku', 120)">Add to Cart</button>
+            <button onclick="buyNow('Crispy Murukku', 120)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://snackfactorykerala.in/wp-content/uploads/2021/02/snack-factory-kerala-1.jpg" alt="Banana Chips">
+            <h2>Banana Chips</h2>
+            <p>Freshly fried banana chips with a perfect crunch and light seasoning.</p>
+            <p><strong>Price: ₹150 per 500g</strong></p>
+            <button onclick="addToCart('Banana Chips', 150)">Add to Cart</button>
+            <button onclick="buyNow('Banana Chips', 150)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://th.bing.com/th/id/OIP.kxhA8UXkI99fVJH4osMtowHaHa?rs=1&pid=ImgDetMain" alt="Namak Pare">
+            <h2>Samosa Chips</h2>
+            <p>Golden, crispy, and lightly spiced – the perfect tea-time snack!</p>
+            <p><strong>Price: ₹100 per 500g</strong></p>
+            <button onclick="addToCart('Namak Pare', 100)">Add to Cart</button>
+            <button onclick="buyNow('Namak Pare', 100)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://th.bing.com/th/id/OIP.ZshL1Hlih84MGdHfB5vM9QHaHa?rs=1&pid=ImgDetMain" alt="Masala Peanuts">
+            <h2>Masala Peanuts</h2>
+            <p>Spicy and crunchy peanuts coated with aromatic Indian spices.</p>
+            <p><strong>Price: ₹130 per 500g</strong></p>
+            <button onclick="addToCart('Masala Peanuts', 130)">Add to Cart</button>
+            <button onclick="buyNow('Masala Peanuts', 130)">Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 DesiBites | Taste the Tradition</p>
+    </footer>
+
+</body>
+</html>

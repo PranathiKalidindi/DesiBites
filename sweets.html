@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Sweets</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cart.js" defer></script> <!-- JavaScript for cart functionality -->
+</head>
+<body>
+
+    <header>
+        <h1>Delicious Homemade Sweets</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pickles.html">Pickles</a>
+            <a href="sweets.html">Sweets</a>
+            <a href="snacks.html">Snacks</a>
+            <a href="cart.html">🛒 Cart</a>
+        </nav>
+    </header>
+
+    <section class="items">
+        <div class="item">
+            <img src="https://www.thespruceeats.com/thmb/OSF95XCCtERDpw3er-S0NXEhVLQ=/1940x1546/filters:fill(auto,1)/besanladdoo-56a5106d3df78cf772862ba5.jpg" alt="Besan Ladoo">
+            <h2>Besan Ladoo</h2>
+            <p>Sweet, aromatic, and rich ladoos made from roasted gram flour and ghee.</p>
+            <p><strong>Price: ₹180 per 500g</strong></p>
+            <button onclick="addToCart('Besan Ladoo', 180)">Add to Cart</button>
+            <button onclick="buyNow('Besan Ladoo', 180)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://th.bing.com/th/id/OIP.ALNVrDctDELKjmqSe9uniQHaFh?rs=1&pid=ImgDetMain" alt="Jalebi">
+            <h2>Jalebi</h2>
+            <p>Traditional crispy, juicy, and syrup-soaked golden spirals.</p>
+            <p><strong>Price: ₹150 per 500g</strong></p>
+            <button onclick="addToCart('Jalebi', 150)">Add to Cart</button>
+            <button onclick="buyNow('Jalebi', 150)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://images.slurrp.com/prod/recipe_images/transcribe/dessert/Rasgulla.webp" alt="Rasgulla">
+            <h2>Rasgulla</h2>
+            <p>Soft, spongy, and syrupy Bengali delight.</p>
+            <p><strong>Price: ₹200 per 500g</strong></p>
+            <button onclick="addToCart('Rasgulla', 200)">Add to Cart</button>
+            <button onclick="buyNow('Rasgulla', 200)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://recipes.timesofindia.com/thumb/55048826.cms?imgsize=392932&width=800&height=800" alt="Kaju Katli">
+            <h2>Kaju Katli</h2>
+            <p>Rich and smooth cashew fudge with a hint of cardamom.</p>
+            <p><strong>Price: ₹350 per 500g</strong></p>
+            <button onclick="addToCart('Kaju Katli', 350)">Add to Cart</button>
+            <button onclick="buyNow('Kaju Katli', 350)">Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 DesiBites | Sweet Memories in Every Bite</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>🛒 Your Shopping Cart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pickles.html">Pickles</a>
+            <a href="sweets.html">Sweets</a>
+            <a href="snacks.html">Snacks</a>
+        </nav>
+    </header>
+
+    <section>
+        <table id="cart-table">
+            <tr>
+                <th>Item</th>
+                <th>Price (₹)</th>
+                <th>Action</th>
+            </tr>
+        </table>
+        <p><strong>Total: ₹<span id="total-price">0</span></strong></p>
+        <button onclick="checkout()">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <p>© 2025 DesiBites | Taste the Tradition</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemade Pickles</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="cart.js" defer></script> <!-- JavaScript for Cart -->
+</head>
+<body>
+
+    <header>
+        <h1>Our Special Homemade Pickles</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pickles.html">Pickles</a>
+            <a href="sweets.html">Sweets</a>
+            <a href="snacks.html">Snacks</a>
+            <a href="cart.html">🛒 Cart</a>
+        </nav>
+    </header>
+
+    <section class="items">
+        <div class="item">
+            <img src="https://dinedelicious.in/wp-content/uploads/2020/07/Raw-Mango-Pickle-7.jpg" alt="Mango Pickle">
+            <h2>Spicy Mango Pickle</h2>
+            <p>Handcrafted with farm-fresh raw mangoes, blended with traditional Indian spices.</p>
+            <p><strong>Price: ₹150 per 500g</strong></p>
+            <button onclick="addToCart('Spicy Mango Pickle', 150)">Add to Cart</button>
+            <button onclick="buyNow('Spicy Mango Pickle', 150)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://th.bing.com/th/id/OIP.oH6FxpbZoPY32fSUpn2PzQHaE_?rs=1&pid=ImgDetMain" alt="Lemon Pickle">
+            <h2>Sweet & Tangy Lemon Pickle</h2>
+            <p>Sun-cured lemon pickle, perfectly balanced between sweet and tangy flavors.</p>
+            <p><strong>Price: ₹180 per 500g</strong></p>
+            <button onclick="addToCart('Lemon Pickle', 180)">Add to Cart</button>
+            <button onclick="buyNow('Lemon Pickle', 180)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://th.bing.com/th/id/OIP.7IXw3elpVMMU4RXoZXVgMAHaFz?rs=1&pid=ImgDetMain" alt="Chicken Pickle">
+            <h2>Chicken Pickle</h2>
+            <p>Our home-made Chicken Pickle is a mouthwatering fusion of tender, juicy chicken pieces marinated in a rich blend of aromatic spices, slow-cooked to perfection, and preserved in high-quality oil for long-lasting freshness.</p>
+            <p><strong>Price: ₹350 per 500g</strong></p>
+            <button onclick="addToCart('Chicken Pickle', 150)">Add to Cart</button>
+            <button onclick="buyNow('Chicken Pickle', 150)">Buy Now</button>
+        </div>
+
+        <div class="item">
+            <img src="https://th.bing.com/th/id/OIP.GBkSQ1Pjxl2cGxuu3TaRPQHaFj?rs=1&pid=ImgDetMain" alt="Prawns Pickle">
+            <h2>Prawns Pickle</h2>
+            <p>Our homemade Prawns Pickle is a seafood delight, featuring succulent prawns marinated in fiery spices, tangy lemon, and aromatic herbs, then slow-cooked and preserved in flavorful oils.
+            </p>
+            <p><strong>Price: ₹350 per 500g</strong></p>
+            <button onclick="addToCart('Prawns Pickle', 150)">Add to Cart</button>
+            <button onclick="buyNow('Prawns Pickle', 150)">Buy Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 DesiBites | Taste the Tradition</p>
+    </footer>
+
+</body>
+</html>
